@@ -14,7 +14,6 @@ a {
 .wrapper {
   max-width: 1440px;
   margin: 0px auto;
-  /* border: solid 2px black; */
 }
 header.intro {
   background-color: var(--blue-color);
@@ -189,3 +188,104 @@ div.promo-text p {
   font-size: 16px;
   line-height: 18px;
 }
+section.all-services {
+  display: grid;
+  grid-template-columns: 36% 64%;
+}
+div.block-of-services {
+  height: 546px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+}
+div.text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12%;
+}
+h2 {
+  text-transform: capitalize;
+  font-family: var(--font-roboto-condensed);
+  font-size: 48px;
+  line-height: 56.25px;
+  font-weight: 400;
+}
+h2.service {
+  color: var(--blue-color);
+  margin-top: -5%;
+}
+div.text-block h3 {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  font-family: var(--font-roboto);
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--main-font-color);
+}
+.line-separator {
+  height: 8px;
+  width: 100px;
+  background-color: var(--blue-color);
+}
+div.text-block p {
+  font-family: var(--font-roboto);
+  color: #797979;
+  font-size: 18px;
+  line-height: 24px;
+  margin-right: 10%;
+  margin-top: 7%;
+}
+div.service {
+  border: 1px solid var(--gray-color);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+div.service:hover {
+  box-shadow: inset 4px 4px var(--blue-color),
+    inset -4px -4px 0px 0px var(--blue-color);
+}
+img.icon-service {
+  margin-top: 36%;
+  width: 64px;
+  height: 64px;
+}
+p.popup-text {
+  display: none;
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--secondary-font-color);
+  font-weight: 500;
+  margin-top: 13%;
+}
+p.popup-text span {
+  font-family: var(--font-roboto-condensed);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: var(--blue-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 10%;
+}
+div.service:hover > a > .popup-text {
+  display: flex;
+  flex-direction: column;
+}
+div.service:hover > a > img.icon-service{
+  margin-top: 12%;
+}
+
+p.name-service {
+  color: var(--main-font-color);
+  font-family: var(--font-roboto-condensed);
+  font-size: 16px;
+  line-height: 18.75px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+

@@ -229,7 +229,7 @@ div.text-block h3 {
   width: 100px;
   background-color: var(--blue-color);
 }
-div.text-block p {
+p.text {
   font-family: var(--font-roboto);
   color: #797979;
   font-size: 18px;
@@ -279,7 +279,7 @@ div.service:hover > a > img.icon-service{
   margin-top: 12%;
 }
 
-p.name-service {
+p.name {
   color: var(--main-font-color);
   font-family: var(--font-roboto-condensed);
   font-size: 16px;
@@ -288,4 +288,116 @@ p.name-service {
   font-weight: 700;
   letter-spacing: 2px;
 }
-
+section.recent-work{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 668px;
+  background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
+}
+.recent-work .name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5%;
+}
+h2.recent-work {
+  color: var(--white-color);
+  margin-bottom: 8.5%;
+}
+.line-separator.white {
+  margin-top: 0;
+  background-color: var(--white-color);
+}
+div.our-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+div.our-projects img{
+  border-radius: 4px;
+}
+p.name.project {
+  margin-top: 12%;
+  color: var(--blue-color);
+  text-transform: none;
+}
+div.project {
+  margin: 5.5% 0.7% 1% 0.7%;
+}
+div.project:hover .shadow {
+  z-index: 3;
+}
+.shadow {
+  z-index: -3;
+  margin: 11px 12.5px;
+  position: absolute;
+  width: 243px;
+  height: 217px;
+  background-color: var(--gray-color);
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 4px;
+}
+.shadow a {
+  margin-left: 12px;
+}
+.seacrh-btn {
+  margin-top: 7px;
+}
+section.video {
+  margin-top: -50px;
+  min-height: 580px;
+  background: var(--white-color);
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-items: center;
+  align-self: center;
+}
+img.video {
+  margin-top: 8%;
+  margin-left: 18%;
+}
+div.text-block-video {
+  margin-top: 1.5%;
+  margin-left: 19.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  width: 100%;
+}
+div.text-block-video h2 {
+  margin-top: 6%;
+  margin-bottom: 5%;
+  width: 100%;
+  color: var(--main-font-color);
+}
+div.text-block-video .line-separator {
+  margin-top: 0;
+  padding-right: 2%;
+}
+div.text-block-video p.text {
+  margin-top: 6%;
+}
+.btn.watch-video {
+  margin-top: 3%;
+  width: 230px;
+  height: 60px;
+  background-color: var(--blue-color);
+  font-family: var(--font-roboto);
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--gray-color);
+  border: 0;
+  cursor: pointer;
+}

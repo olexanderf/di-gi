@@ -401,3 +401,145 @@ div.text-block-video p.text {
   border: 0;
   cursor: pointer;
 }
+section.news {
+  padding-top: 18px;
+  min-height: 1044px;
+  background-color: var(--gray-color);
+}
+section.news h2 {
+  text-align: center;
+  color: var(--main-font-color);
+  margin-bottom: 1.2%;
+  margin-top: 2.5%;
+}
+section.news div.line-separator {
+  margin: 0 auto;
+}
+.all-news {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items:flex-start;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-top: 8%;
+  margin-right: 2%;
+}
+div.news {
+  position: relative;
+  border-radius: 4px;
+  width: 270px;
+  margin-top: 0;
+  margin-left: 30px;
+  margin-bottom: 7%;
+  min-height: 160px;
+  z-index: 1;
+}
+div.col-1 div.news {
+  margin-bottom: 12%;
+}
+img.news {
+  margin-top: 1%;
+  border-radius: 4px;
+  width: 100%;
+}
+.news-name {
+  position: absolute;
+  z-index: 2;
+  top: 90%;
+  width: 270px;
+  height: 40px;
+  background-color: var(--white-color);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+span.news {
+  font-family: var(--font-roboto-condensed);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  letter-spacing: 2px;
+  margin-left: 20px;
+}
+
+.news-name.col-4 {
+  top: 80%;
+  padding-bottom: 2px;
+}
+
+.news-name.col-1.top {
+  top: 93%;
+}
+.news-name.col-1.bottom {
+  top: 91%;
+}
+.news-name.col-2 {
+  top: 88%;
+}
+div.news:hover > img.news {
+  box-sizing: border-box;
+  border: 10px solid var(--blue-color);
+}
+div.news:hover > a.info-news {
+  z-index: 4;
+}
+div.news:hover > .news-name {
+  color: var(--gray-color);
+  background-color: var(--blue-color);
+  top: 80%;
+} 
+a.info-news{
+  position: absolute;
+  fill: var(--gray-color);
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.quotes {
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+section.quotes .pag-el.current {
+  border-color: var(--blue-color);
+  background-color: var(--white-color);
+}
+section.quotes .pag-el {
+  background-color: var(--blue-color);
+  border-color: var(--blue-color);
+}
+q{
+  quotes: none;
+  font-family: var(--font-roboto-condensed);
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  color: var(--main-font-color);
+}
+q strong {
+  color: var(--blue-color);
+  font-weight: 700;
+}
+.quote-author {
+  display: block;
+  font-family: var(--font-roboto-condensed);
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--main-font-color);
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 9%;
+}
+section.quotes img {
+  margin-top: 5.5%;
+}
+.quote-text {
+  margin-top: 3.5%;
+}

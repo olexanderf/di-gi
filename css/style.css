@@ -97,6 +97,12 @@ section.intro p {
   position: relative;
   z-index: 2;
 }
+.owl-carousel {
+  z-index: 2;
+}
+.owl-dots {
+  display: none;
+}
 .arrow {
   cursor: pointer;
   position: absolute;
@@ -559,6 +565,7 @@ section.quotes img {
   margin-top: 6.5%;
 }
 .quote-text {
+  text-align: center;
   margin-top: 3.5%;
 }
 footer {

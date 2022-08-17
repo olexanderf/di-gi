@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,15 +27,19 @@
   </head>
 
   <body>
-    <div class="wrapper">
       <header class="intro" id="intro">
-        <img src="/images/logo.png" alt="logo" class="logo" />
-        <div class="btn menu">
-          <img src="/images/bars-solid.svg" alt="menu" />
+        <div class="container">
+          <img src="/images/logo.png" alt="logo" class="logo" />
+          <div class="btn menu">
+            <button class="btn menu">
+              <img src="/images/burg-menu.svg" alt="menu" />
+            </button>
+          </div>
         </div>
       </header>
 
-      <section class="intro">
+       <section class="intro">
+        <div class="container">
         <h1>
           Мысли <br />
           Глобально
@@ -62,21 +66,17 @@
             </p>
           </div>
         </div>
-        <button href="#" class="btn more">Подробнее</button>
-        <div class="arrow prev">
+        <button class="btn more">Подробнее</button>
+        <!-- <button class="arrow prev">
           <img src="/images/angle-left-solid.svg" alt="next" />
-        </div>
-        <div class="arrow next">
+        </button>
+        <button class="arrow next">
           <img src="/images/angle-right-solid.svg" alt="prev" />
-        </div>
-        <div class="pagination">
-          <div class="pag-el"></div>
-          <div class="pag-el current"></div>
-          <div class="pag-el"></div>
-        </div>
+        </button> -->
         <div class="overlay"></div>
+      </div>
       </section>
-
+<!--
       <section class="promo">
         <div class="promo-text">
           <h3>Вы полюбите нас с первой встречи!</h3>
@@ -447,8 +447,8 @@
       </footer>
       <a href="#intro" class="up">
         вверх<img src="/images/up.svg" alt="up"
-      /></a>
-    </div>
+      /></a> -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="/owlcarusel/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>

@@ -7,3 +7,9 @@ $(document).ready(function(){
         loop: true,
     });
 });
+
+$('.grid').masonry({
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: 300,
+  });

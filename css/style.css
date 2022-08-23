@@ -273,13 +273,13 @@ section.intro>.container>.owl-carousel>.owl-dots {
 }
 
 @media (max-width: 1024px) {
-  .owl-dots {
+  section.intro>.container>.owl-carousel>.owl-dots {
     top: 14rem;
   }
 }
 
 @media (max-width: 768px) {
-  .owl-dots {
+  section.intro>.container>.owl-carousel>.owl-dots {
     top: 10.15rem;
   }
 }

@@ -1201,6 +1201,22 @@ section.news {
   background-color: var(--gray-color);
 }
 
+@media (max-width: 1240px) {
+  section.news {
+    min-height: 1368px;
+  }
+}
+@media (max-width: 950px) {
+  section.news {
+    min-height: 1745px;
+  }
+}
+@media (max-width: 635px) {
+  section.news {
+    min-height: 2896px;
+  }
+}
+
 section.news>div.container {
   display: block;
 }

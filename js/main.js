@@ -6,10 +6,10 @@ $(document).ready(function(){
         autoplayTimeout:3000,
         loop: true,
     });
+    
+    $('.grid').masonry({
+        // options
+        itemSelector: '.grid-item',
+        columnWidth: 300,
+    });
 });
-
-$('.grid').masonry({
-    // options
-    itemSelector: '.grid-item',
-    columnWidth: 300,
-  });
